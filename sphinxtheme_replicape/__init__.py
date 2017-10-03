@@ -1,6 +1,6 @@
 import os
 
-import version
+import _version as version
 
 
 def get_path():
