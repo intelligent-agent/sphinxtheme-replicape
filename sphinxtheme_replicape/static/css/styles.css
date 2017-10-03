@@ -1954,10 +1954,80 @@ a.reference.external:after.pull-right {
 .admonition.admonition-and-by-the-way .first:before {
   content: "\f00e";
 }
-.versionadded {
+.admonition.versionmodified {
+  background: #75c181;
+  color: #fff;
   background: #F8D773;
-  border-radius: 4px;
-  padding: 6px 6px 2px 6px;
+  padding: 2px;
+}
+.admonition.versionmodified .first:before {
+  content: "\f067";
+  left: 20px;
+  top: 8px;
+  font-size: 20px;
+}
+.admonition.versionmodified p {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 25px;
+  font-style: italic;
+}
+.admonition.versionmodified .admonition-title {
+  font-size: 0px;
+}
+.versionadded {
+  background: #75c181;
+  color: #fff;
+  background: #F8D773;
+  padding: 2px;
+  border-radius: 6px;
+  position: relative;
+  padding-left: 30px;
+}
+.versionadded .first:before {
+  content: "\f067";
+  left: 20px;
+  top: 8px;
+  font-size: 20px;
+}
+.versionadded p {
+  display: inline-block;
+  color: rgba(0, 0, 0, 0.65);
+  font-size: 12px;
+  font-weight: bold;
+  padding-left: 25px;
+  font-style: italic;
+}
+.versionadded .admonition-title {
+  font-size: 0px;
+}
+.versionadded p:before {
+  display: inline-block;
+  font: normal normal normal 14px/1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: absolute;
+  content: "\f067";
+  left: 20px;
+  top: 8px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.25);
+}
+.versionadded p:before.fa-pull-left {
+  margin-right: .3em;
+}
+.versionadded p:before.fa-pull-right {
+  margin-left: .3em;
+}
+.versionadded p:before.pull-left {
+  margin-right: .3em;
+}
+.versionadded p:before.pull-right {
+  margin-left: .3em;
 }
 #doc-nav ul.current > li.current > a {
   font-weight: 600;
