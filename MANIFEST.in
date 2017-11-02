@@ -1,0 +1,4 @@
+include sphinxtheme_replicape/theme.conf
+recursive-include sphinxtheme_replicape *.html *.js *.scss *.css *.less
+
+
